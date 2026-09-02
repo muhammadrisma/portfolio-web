@@ -54,7 +54,12 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+          <p>Open to AI and machine learning work. Reach me by email or phone, or send a note with the form below.</p>
+          <p>
+            <a href="mailto:muhammadrisma2003@gmail.com">muhammadrisma2003@gmail.com</a>
+            {' · '}
+            <a href="tel:+6281281784969">+62 812-8178-4969</a>
+          </p>
           <Box
             ref={form}
             component="form"
