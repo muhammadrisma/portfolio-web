@@ -18,8 +18,24 @@
     color: white;
   }
 
+  /* MUI outlined fieldset sits on top of the input; a solid fill blocks clicks. */
   fieldset {
+    background-color: transparent;
+    pointer-events: none;
+  }
+
+  .MuiInputBase-root {
     background-color: white;
+  }
+
+  .MuiInputBase-input {
+    position: relative;
+    z-index: 1;
+    color: #050f0b;
+  }
+
+  .MuiInputLabel-root {
+    color: #050f0b;
   }
 }
 
