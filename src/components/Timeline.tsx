@@ -68,6 +68,62 @@ function Timeline() {
               Secured 140 million Rupiah incubation from Google and Dikti. Developed a transfer learning solution with MobileNetV2 and YOLO, achieving 97% accuracy in acne type classification, while collaborating with Mobile and Cloud Computing teams on system integration.
             </p>
           </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Jan 2024 - Jun 2024"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Data Scientist</h3>
+            <h4 className="vertical-timeline-element-subtitle">Kementerian Keuangan Republik Indonesia · Internship, Central Jakarta</h4>
+            <p>
+              Researched and implemented semantic search for the LNSW Contact Center, combining it with keyword retrieval in a hybrid strategy. Fine-tuned a Retrieval Augmented Generation (RAG) model to raise search relevance by 62% for diverse user queries.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Sep 2023 - Dec 2023"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">PT. Yutaka Manufacturing Indonesia (Astra Group) · Internship, Cikarang Barat</h4>
+            <p>
+              Introduced Leantime for project tracking and collaboration, and built a MERN-based supplier inspection system (MongoDB, Express.js, React, Node.js). Process and communication improvements cut supplier inspection time by 50%.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Jun 2022 - Jan 2023"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Channel Business Development Associate</h3>
+            <h4 className="vertical-timeline-element-subtitle">Alibaba Cloud · Internship</h4>
+            <p>
+              Generated MQLs and SQLs with Marketing and Solution Architect teams, set sales goals and forecasts, and ran partner meetings to grow pipeline. Earned ACA Business User, ACA Cloud Native, and Alibaba Cloud Clouder certifications and applied them to business processes.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Mar 2022 - Jun 2022"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Student Ambassador</h3>
+            <h4 className="vertical-timeline-element-subtitle">Alibaba Cloud, Indonesia</h4>
+            <p>
+              Named among the top 20 Alibaba Cloud Student Ambassadors in Indonesia and later one of four interns from that cohort. Promoted campus events, ran a high-attendance university program, and built a brand campaign to grow student engagement with cloud computing.
+            </p>
+          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </div>
