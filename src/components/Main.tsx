@@ -23,7 +23,7 @@ function Main() {
             <p>AI Engineer</p>
             
             <a
-              href="https://drive.google.com/file/d/1q5BE9XIrWcrw2Rm34x4Rx_41XzSf_oSL/view?usp=sharing"
+              href={process.env.REACT_APP_GOOGLE_DRIVE_FILE_LINK as string}
               target="_blank"
               rel="noreferrer"
               className="cv-download-btn"
