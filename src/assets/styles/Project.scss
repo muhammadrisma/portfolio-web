@@ -75,6 +75,28 @@
     padding: 3px 9px;
 }
 
+.light-mode {
+    .project-tagline,
+    .project-subheading,
+    .project-list li,
+    .project-tech-list li,
+    .project-links a {
+        color: #0d1116;
+    }
+
+    .project-subheading {
+        border-left-color: #0d1116;
+    }
+
+    .project-list li::before {
+        background: #0d1116;
+    }
+
+    .project-links a:hover {
+        border-bottom-color: #0d1116;
+    }
+}
+
 .project-links {
     display: flex;
     flex-wrap: wrap;

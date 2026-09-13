@@ -1,6 +1,6 @@
 import React from "react";
-import eyecare from '../assets/images/eyecare.svg';
-import skincheck from '../assets/images/skincheck.svg';
+import eyecare from '../assets/images/eyecare.webp';
+import skincheck from '../assets/images/skincheck.webp';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -10,7 +10,7 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
                 <a href="#" target="_blank" rel="noreferrer" onClick={(e) => e.preventDefault()}><img src={eyecare} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="#" target="_blank" rel="noreferrer"><h2>EyeCaressss / Netra Raksa</h2></a>
+                <a href="#" target="_blank" rel="noreferrer"><h2>EyeCare / Netra Raksa</h2></a>
                 <p className="project-tagline">Early detection app for eye diseases using ML</p>
                 <p>
                     Developed a mobile app for early detection of eye diseases, using the YOLO algorithm for
