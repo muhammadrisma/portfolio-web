@@ -42,9 +42,9 @@ function Project() {
 
                 <h3 className="project-subheading">Project Links</h3>
                 <div className="project-links">
+                    <a href="https://docs.google.com/presentation/d/1kZ2WMP8D5-_9G0_oUQ20K7_VC0-QJVPE/edit?usp=sharing&ouid=114270833960464480443&rtpof=true&sd=true" target="_blank" rel="noreferrer" className="project-link-btn">View Presentation and Demo</a>
                     <a href="https://www.figma.com/proto/fGuMsGrItENby4Z93NaMTv/Netra-Raksa" target="_blank" rel="noreferrer" className="project-link-btn">View Prototype</a>
                     <a href="https://drive.google.com/drive/folders/1RQ_E3Iw4UdWbjP_E-SO6rMHgrA1fwLFm" target="_blank" rel="noreferrer" className="project-link-btn">Watch Demo</a>
-                    <a href="https://www.canva.com/design/DAGFNOxBx78/" target="_blank" rel="noreferrer" className="project-link-btn">View Presentation</a>
                     <a href="https://app.maze.co/report/Netra-Raksa/5mln9tlv9nwz7k/intro" target="_blank" rel="noreferrer" className="project-link-btn">View Analytics</a>
                 </div>
             </div>
