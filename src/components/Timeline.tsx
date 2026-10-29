@@ -30,7 +30,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="Dec 2024 - Dec 2025"
+            date="Dec 2024 - Nov 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -38,6 +38,20 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">PT Midory Cipta Kreasi (Inti Nya Group), Jakarta Utara</h4>
             <p>
               Deployed real-time image generation with Stable Diffusion (CLIP, Flux, UNet, CatVton) in ComfyUI via FastAPI/WebSocket. Built a RAG chatbot with Qdrant, MongoDB, and OpenAI embeddings featuring hybrid search and reranking, plus a GPU-optimized face attribute service achieving 3x performance gains.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="May 2023 - Apr 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Founder & ML Engineer Lead</h3>
+            <h4 className="vertical-timeline-element-subtitle">Skincheck.AI, Jakarta</h4>
+            <p>
+              Secured 140 million Rupiah incubation from Google and Dikti. Developed a transfer learning solution with MobileNetV2 and YOLO, achieving 97% accuracy in acne type classification, while collaborating with Mobile and Cloud Computing teams on system integration.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -52,20 +66,6 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">Bangkit Academy, Jakarta</h4>
             <p>
               Guided a cohort of students through machine learning concepts and applications, collaborating with the instructional team to address challenges. Helped 93% of students in the class graduate through personalized mentoring and consistent feedback.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="May 2023 - Jul 2024"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Founder & ML Engineer Lead</h3>
-            <h4 className="vertical-timeline-element-subtitle">Skincheck.AI, Jakarta</h4>
-            <p>
-              Secured 140 million Rupiah incubation from Google and Dikti. Developed a transfer learning solution with MobileNetV2 and YOLO, achieving 97% accuracy in acne type classification, while collaborating with Mobile and Cloud Computing teams on system integration.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
